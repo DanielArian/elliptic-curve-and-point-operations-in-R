@@ -1,11 +1,17 @@
 # elliptic-curves-in-real-set
 A node module to perform point Addition and point doubling on Elliptic Curve in the set of real numbers. Only Weierstrass EC supported for now.
 
-# Math behind point addition for Weierstrass EC
+# Supported curves for now :
+
+- [Weierstrass](##Weierstrass)
+
+## Weierstrass
+
+### Math behind point addition for Weierstrass EC
 
 See : https://crypto.stanford.edu/pbc/notes/elliptic/explicit.html
 
-# How to use 
+### Example
 
 ```js
 const wcurve = require('./weierstrass.js');
