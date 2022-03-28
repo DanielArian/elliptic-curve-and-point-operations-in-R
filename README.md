@@ -1,5 +1,5 @@
-# Point-operations-on-elliptic-curve-in-R
-Point Addition and point doubling on Elliptic Curve in the set of real numbers. Only Weierstrass EC supported for now.
+# elliptic-curves-in-real-set
+A node module to perform point Addition and point doubling on Elliptic Curve in the set of real numbers. Only Weierstrass EC supported for now.
 
 # Math behind point addition for Weierstrass EC
 
