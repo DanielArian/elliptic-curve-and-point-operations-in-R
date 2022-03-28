@@ -5,14 +5,14 @@
  * https://crypto.stanford.edu/pbc/notes/elliptic/explicit.html
 */
 
-import Point from '../Point.js'
+import { Point } from '../Point.js'
 
 /**
  * Represent a general weierstrass elliptic curve which equation is:
  * 
  * Y^2 + a1 XY + a3 * Y = X^3 + a2 X^2 + a4 X + a6
  */
-class Weierstrass {
+export class Weierstrass {
     /**
      * Y^2 + a1 XY + a3 * Y = X^3 + a2 X^2 + a4 X + a6
      * 
@@ -114,7 +114,7 @@ class Weierstrass {
 /**
  * A point on a weierstrass curve
  */
-class WeierstrassPoint extends Point {
+export class WeierstrassPoint extends Point {
     /**
      * 
      * @param {Weierstrass} curve 
@@ -222,9 +222,4 @@ class WeierstrassPoint extends Point {
         let Result = new WeierstrassPoint(this.curve, x3, y3);
         return Result;
     }
-}
-
-module.exports = {
-    Weierstrass,
-    WeierstrassPoint
 }

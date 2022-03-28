@@ -1,6 +1,7 @@
 {
   "name": "ecurves-in-real-set",
   "version": "1.0.0",
+  "type":"module",
   "description": "Operations such as addition or point doubling on points of elliptic curves defined in the set of real numbers.",
   "main": "index.js",
   "repository": {

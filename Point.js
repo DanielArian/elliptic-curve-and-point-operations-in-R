@@ -1,4 +1,4 @@
-class Point {
+export class Point {
     /**
      * 
      * @param {number} x
@@ -102,5 +102,3 @@ class Point {
         return [gradient, b];
     }
 }
-
-module.exports = Point;
