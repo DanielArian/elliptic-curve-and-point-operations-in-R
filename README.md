@@ -3,7 +3,7 @@ A node module to perform point Addition and point doubling on Elliptic Curve in 
 
 # Supported curves for now :
 
-- [Weierstrass](##Weierstrass)
+- [Weierstrass](#Weierstrass)
 
 ## Weierstrass
 
