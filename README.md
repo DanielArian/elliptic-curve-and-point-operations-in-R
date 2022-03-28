@@ -1,5 +1,5 @@
 # elliptic-curves-in-real-set
-A node module to perform point Addition and point doubling on Elliptic Curve in the set of real numbers. Only Weierstrass EC supported for now.
+A ECMAScript module to perform point Addition and point doubling on Elliptic Curve in the set of real numbers. Only Weierstrass EC supported for now.
 
 # Supported curves for now :
 
